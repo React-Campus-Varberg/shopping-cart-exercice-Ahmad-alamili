@@ -1,3 +1,13 @@
+#totalOrder{
+    display: inline-block;
+    background-color: wheat;
+    width: 28px;
+    height: 23px;
+    border-radius: 19px;
+    text-align: center;
+    padding-top: 5px;
+    color: #000;
+}
 img{
     margin: 5px;
     width: 40px;
@@ -12,7 +22,7 @@ img{
 #crt{
  margin-right: 10px;   
  float: right;
- color: red;
+ color: #ffffff;
 }
 
 article{
@@ -28,6 +38,7 @@ article{
    
 }
 .card {
+    height: 280px;
     float: left;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
@@ -52,3 +63,6 @@ article{
   .subcontainer{
       padding: 15px;
   }
+  .subcontainer p:nth-of-type(2){
+    height: 90px;
+}

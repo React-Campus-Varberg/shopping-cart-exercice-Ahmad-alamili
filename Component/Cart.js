@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Cart(params) {
-    return (<p>Cart <span>0</span></p>  )
+    return (<p>Cart <span id="totalOrder">{params.val}</span></p>  )
 }
 
 export default Cart
